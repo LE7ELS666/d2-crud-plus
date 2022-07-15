@@ -1,7 +1,7 @@
 {
-  "name": "d2-crud-plus",
+  "name": "d2-crud-rc",
   "description": "d2-admin的d2-crud的扩展 ",
-  "version": "2.17.9",
+  "version": "1.0.0",
   "author": "Greper <252959493@qq.com>",
   "license": "MIT",
   "private": false,
@@ -9,17 +9,7 @@
     "type": "git",
     "url": "https://github.com/greper/d2-crud-plus.git"
   },
-  "keywords": [
-    "d2-crud",
-    "table",
-    "d2-projects",
-    "vue",
-    "element",
-    "d2-crud-plus",
-    "d2-admin",
-    "config-crud",
-    "配置化crud"
-  ],
+  "keywords": [],
   "main": "dist/d2-crud-plus.umd.js",
   "scripts": {
     "dev": "set VUE_APP_RUN_DEMO=1 && vue-cli-service serve",
@@ -62,6 +52,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
-  ],
-  "gitHead": "0cac2cf4703aa4a4ef33af8754733a552319a1c3"
+  ]
 }
