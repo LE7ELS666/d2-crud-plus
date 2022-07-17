@@ -315,12 +315,20 @@ export default {
       return defVal
     },
     getComponentProps (item) {
-      if (item && item.component && item.component.props) {
-        return item.component.props
+      if (item && item.component) {
+        if (item.component.props) {
+          return item.component.props
+        } else if (!item.component.name) {
+          return { clearable: true }
+        }
       }
       return {}
     },
     handleSearchDataChange ({ value, component }, column) {
+      if (typeof value === 'string') {
+        value = value.trim()
+        column.form[column.key] = value
+      }
       column.value = value
       column.component = component
       column.getColumn = this.getColumnTemplate

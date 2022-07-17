@@ -1,4 +1,4 @@
-import log from '@log'
+// import log from '@log'
 export const crudOptions = (vm) => {
   return {
     pageOptions: {
@@ -35,7 +35,8 @@ export const crudOptions = (vm) => {
         width: 90,
         form: {
           disabled: true
-        }
+        },
+        search:{disabled:false}        
       },
       {
         title: '单选远程',
@@ -163,12 +164,12 @@ export const crudOptions = (vm) => {
             span: 24,
             events: {
               blur: () => {
-                log.debug('on blur')
+                // log.debug('on blur')
               }
             }
           },
           valueChange (key, value, form) {
-            log.debug('您选中了：', value)
+            // log.debug('您选中了：', value)
           }
         },
         minWidth: 200
