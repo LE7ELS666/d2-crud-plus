@@ -3,7 +3,7 @@ module.exports = {
   configureWebpack: {
     externals: {
       vue: 'Vue',
-      'd2-crud-plus': 'd2CrudPlus',
+      'd2-crud-rc': 'd2CrudPlus',
       lodash: 'lodash'
     }
   }

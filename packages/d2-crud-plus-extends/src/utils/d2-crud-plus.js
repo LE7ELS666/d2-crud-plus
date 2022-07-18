@@ -1,6 +1,6 @@
 let d2CrudPlus = null
 try {
-  d2CrudPlus = require('d2-crud-plus').d2CrudPlus
+  d2CrudPlus = require('d2-crud-rc').d2CrudPlus
 } catch (e) {
   console.error('d2CrudPlus未安装，某些功能不可用', e)
 }

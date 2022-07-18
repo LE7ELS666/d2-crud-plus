@@ -1,7 +1,7 @@
 {
-  "name": "d2p-extends",
+  "name": "d2rc-extends",
   "description": "d2-crud-plus的扩展 ",
-  "version": "2.17.9",
+  "version": "1.0.0",
   "author": "Greper <252959493@qq.com>",
   "license": "MIT",
   "private": false,
@@ -9,15 +9,6 @@
     "type": "git",
     "url": "https://github.com/greper/d2-crud-plus.git"
   },
-  "keywords": [
-    "d2-crud",
-    "table",
-    "d2-projects",
-    "vue",
-    "element",
-    "d2-crud-plus",
-    "d2-admin"
-  ],
   "main": "src/index",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -46,7 +37,7 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
-    "d2-crud-plus": "^2.17.9",
+    "d2-crud-rc": "^1.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
@@ -62,6 +53,5 @@
     "plugins": {
       "autoprefixer": {}
     }
-  },
-  "gitHead": "0cac2cf4703aa4a4ef33af8754733a552319a1c3"
+  }
 }
